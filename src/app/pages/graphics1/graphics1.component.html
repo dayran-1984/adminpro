@@ -1,1 +1,47 @@
-<p>graphics1 works!</p>
+<div class="row">
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">{{graphics.graphic1.legend}}</h4>
+                <app-graphic-doughnut [ChartLabels]="graphics.graphic1.labels" [ChartData]="graphics.graphic1.data" ChartType="doughnut">
+                </app-graphic-doughnut>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">{{graphics.graphic2.legend}}</h4>
+                <app-graphic-doughnut [ChartLabels]="graphics.graphic2.labels" [ChartData]="graphics.graphic2.data" ChartType="doughnut">
+                </app-graphic-doughnut>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">{{graphics.graphic3.legend}}</h4>
+                <app-graphic-doughnut [ChartLabels]="graphics.graphic3.labels" [ChartData]="graphics.graphic3.data" ChartType="doughnut">
+                </app-graphic-doughnut>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">{{graphics.graphic4.legend}}</h4>
+                <app-graphic-doughnut [ChartLabels]="graphics.graphic4.labels" [ChartData]="graphics.graphic4.data" ChartType="doughnut">
+                </app-graphic-doughnut>
+            </div>
+        </div>
+    </div>
+
+</div>
