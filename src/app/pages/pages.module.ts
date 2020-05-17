@@ -20,6 +20,7 @@ import { ProgressComponent } from './progress/progress.component';
 //Temporally
 import { IncrementComponent } from '../components/increment/increment.component';
 import { GraphicDoughnutComponent } from '../components/graphic-doughnut/graphic-doughnut.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -30,7 +31,8 @@ import { GraphicDoughnutComponent } from '../components/graphic-doughnut/graphic
     ProgressComponent,
     Graphics1Component,
     IncrementComponent,
-    GraphicDoughnutComponent
+    GraphicDoughnutComponent,
+    AccountSettingsComponent
   ],
   exports: [
     PagesComponent,
