@@ -21,6 +21,8 @@ import { ProgressComponent } from './progress/progress.component';
 import { IncrementComponent } from '../components/increment/increment.component';
 import { GraphicDoughnutComponent } from '../components/graphic-doughnut/graphic-doughnut.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -32,7 +34,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
     Graphics1Component,
     IncrementComponent,
     GraphicDoughnutComponent,
-    AccountSettingsComponent
+    AccountSettingsComponent,
+    PromisesComponent,
+    RxjsComponent
   ],
   exports: [
     PagesComponent,
